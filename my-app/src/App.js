@@ -1,17 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-import './Components/helloworld'
-import helloworld from './Components/helloworld';
+import HelloWorld from './Components/HelloWorld/HelloWorld';
+import FunctionalComponent from './Components/FunctionalComponent/FunctionalComponent';
+import ClassComponent from './Components/ClassComponent/ClassComponent';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <helloworld/>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+
+  render()
+  {
+    return (
+      <div>
+         <HelloWorld />
+         <FunctionalComponent />
+         <ClassComponent/>
+      </div>
+    );
+  }
+  
 }
 
 export default App;
