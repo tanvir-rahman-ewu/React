@@ -6,6 +6,9 @@ import ClassComponent from './Components/ClassComponent/ClassComponent';
 import Props from './Components/Props/Props';
 import State from './Components/State/State';
 import SetState from './Components/SetState/SetState';
+import ConditionalReturn from './Components/ConditionalReturn/ConditionalReturn';
+import VariableElement from './Components/VariableElement/VariableElement';
+import CodeSnipet from './Components/CodeSnipet/CodeSnipet';
 
 
 class App extends Component {
@@ -20,6 +23,9 @@ class App extends Component {
          <Props name = "React"/>
          <State />
          <SetState />
+         <ConditionalReturn />
+         <VariableElement />
+         <CodeSnipet />
       </div>
     );
   }
